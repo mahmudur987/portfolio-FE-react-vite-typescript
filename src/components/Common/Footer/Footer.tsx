@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="  px-6 flex flex-col md:flex-row items-center justify-between gap-6">
         {/* Logo / Name */}
         <div className="text-center md:text-left">
-          <h2 className="text-2xl font-bold">Your Name</h2>
+          <h2 className="text-2xl font-bold">Md Mahmudur Rahman</h2>
           <p className="text-sm text-gray-200">
             © {new Date().getFullYear()} All rights reserved.
           </p>
