@@ -1,4 +1,3 @@
-import "aos/dist/aos.css";
 import Hero from "@/components/Home/Hero";
 import HomeSkills from "@/components/Home/HomeSkills";
 import CTA from "@/components/Home/CTA";

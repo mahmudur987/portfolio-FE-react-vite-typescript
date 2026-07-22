@@ -1,7 +1,4 @@
-// import html2canvas from "html2canvas";
-// import jsPDF from "jspdf";
-
-import picture from "../../assets/resumi.png";
+import picture from "../../assets/PROFILE.1.png";
 import SkillsPage from "../../components/Skills/Skills";
 import EducationPage from "../../components/Education/Education";
 import MyAbility from "../../components/MyAbility/MyAbility";
