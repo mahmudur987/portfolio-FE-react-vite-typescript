@@ -78,7 +78,7 @@ const Hero = ({
               initial={{ scale: 0.8, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
               transition={{ duration: 1, ease: "easeOut" }}
-              className="relative w-48 h-48 md:w-[500px] md:h-[500px] rounded-full overflow-hidden"
+              className="relative w-full aspect-square md:w-[500px] md:h-[500px] rounded-full overflow-hidden"
             >
               {/* Animated Border */}
               <motion.div
@@ -89,11 +89,11 @@ const Hero = ({
 
               {/* Image */}
 
-              <figure className="w-full flex justify-start">
+              <figure className="w-full flex justify-start ">
                 <img
                   src={image.src}
                   alt={image.alt}
-                  className="h-[600px] w-auto rounded-full object-right-top "
+                  className="h-[600px] w-full rounded-full object-right-top "
                 />
               </figure>
             </motion.div>
