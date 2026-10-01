@@ -4,7 +4,7 @@ import axios from "axios";
 //   baseURL: "http://localhost:5000/",
 // });
 const AXIOSBASEURL = axios.create({
-  baseURL: "https://portfolio-server-navy.vercel.app/",
+  baseURL: "https://my-portfolio-server-khaki-mu.vercel.app/",
 });
 
 export default AXIOSBASEURL;
